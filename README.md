@@ -1,20 +1,3 @@
-# Fed Data Provisioning
-
-### README.md for GeFi Federated Data Provisioning Repository
-
-Below is a complete, ready-to-use sample **README.md** file for the proposed `gefidata-provisioning` repository. This README is designed to be comprehensive, user-friendly, and aligned with open-source best practices (e.g., inspired by Flower and PySyft repos). It includes:
-
-- **Overview**: High-level intro tying back to GeFi’s federated goals from the PDFs.
-- **Setup Instructions**: Step-by-step installation and environment setup.
-- **Quickstart**: Simple commands to run examples.
-- **Contribution Guidelines**: How to contribute, code style, etc.
-- **Diagram**: A visual directory structure using Mermaid (renderable on GitHub, GitLab, etc.). Mermaid is chosen for its simplicity and native support in Markdown viewers—no external tools needed.
-- **Explanation**: Inline explanations of key sections, with links to deeper docs.
-
-This README assumes the Apache 2.0 license (as recommended earlier) and Python 3.10+.
-
------
-
 # GeFi Federated Data Provisioning
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
