@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gefi-orchestrator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orchestrator
+  template:
+    metadata:
+      labels:
+        app: orchestrator
+    spec:
+      containers:
+      - name: orchestrator
+        image: gefi-orchestrator:latest
+        env:
+        - name: CONFIG_PATH
+          value: "/app/configs/default_config.yaml"
+        ports:
+        - containerPort: 8080

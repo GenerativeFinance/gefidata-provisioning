@@ -1,0 +1,10 @@
+flower==1.8.0
+torch==2.1.0
+opacus==1.4.0
+web3==6.11.0
+cryptography==41.0.0
+numpy==1.24.0
+pandas==2.0.0
+pyyaml==6.0
+requests==2.31.0
+sqlalchemy==2.0.0

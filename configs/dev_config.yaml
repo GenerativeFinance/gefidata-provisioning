@@ -1,0 +1,22 @@
+# For local development
+model:
+  type: "linear"
+  input_dim: 5
+  output_dim: 1
+
+training:
+  local_epochs: 1
+  lr: 0.1
+  batch_size: 16
+
+privacy:
+  noise_multiplier: 0.0  # Disable for dev
+  max_grad_norm: 10.0
+
+blockchain:
+  rpc_url: "http://127.0.0.1:7545"  # Ganache
+  contract_address: "0x..."
+
+participants:
+  min_reputation: 0
+  max_nodes_per_round: 2
